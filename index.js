@@ -3,6 +3,8 @@ var inherits = require('inherits')
 var createIndices = require('quad-indices')
 var utils = require('./lib/utils')
 
+var THREE = (window.THREE || require('three')) 
+
 var Base = THREE.BufferGeometry
 
 module.exports = function(opt) {
